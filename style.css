@@ -52,7 +52,7 @@
      content: "";
      height: 2px;
      width: 18vw;
-     background: black;
+     /* background: black; */
      display: inline-block;
      margin-left: 5%;
      transform: translateY(-10px);
