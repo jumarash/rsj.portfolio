@@ -279,7 +279,7 @@ work{
   transform: translateX(-50%);
 }
 .work .title3::after{
- content: "Concepts design";
+ content: "Concept designs";
  position: absolute;
  bottom: -12px;
  left: 50%;
