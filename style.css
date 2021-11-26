@@ -6,6 +6,7 @@
     background-position: 50% 50%;
     height: 650px;
     width: 100%;
+   
 }
 
  .background .navbar .navbar-nav a{
@@ -226,8 +227,8 @@ width: 45%;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: sans-serif;
 }
 .work .title2::before{
@@ -237,11 +238,11 @@ width: 45%;
     left: 50%;
     width: 180px;
     height: 3px;
-    background:crimson;
+    background:black;
     transform: translateX(-50%);
 }
-/* .work .title2::after{
-   content: "who i am";
+.work .title2::after{
+   content: "UX Design";
    position: absolute;
    bottom: -12px;
    left: 50%;
@@ -250,8 +251,126 @@ width: 45%;
    padding: 5px;
    background:white;
    transform: translateX(-50%);
-} */
+} 
 /* ==============try end================= */
+
+/* ==============My work 3 starts styling================ */
+
+work{
+  font-family: sans-serif; 
+}
+.work .title3{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+.work .title3::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background:black;
+  transform: translateX(-50%);
+}
+.work .title3::after{
+ content: "Concepts design";
+ position: absolute;
+ bottom: -12px;
+ left: 50%;
+ font-size: 20px;
+ color: crimson;
+ padding: 5px;
+ background:white;
+ transform: translateX(-50%);
+} 
+
+/* ==============My work 3  end================= */
+
+/* ==============My work 4 starts styling================ */
+
+work{
+  font-family: sans-serif; 
+}
+.work .title4{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+}
+.work .title4::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background:black;
+  transform: translateX(-50%);
+}
+.work .title4::after{
+ content: "Digital Drawings";
+ position: absolute;
+ bottom: -12px;
+ left: 50%;
+ font-size: 20px;
+ color: crimson;
+ padding: 5px;
+ background:white;
+ transform: translateX(-50%);
+} 
+
+/* ==============My work 4  end================= */
+
+/* ==============My work 5 starts styling================ */
+
+work{
+  font-family: sans-serif; 
+}
+.work .title5{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  padding-top: 5px;
+}
+.work .title5::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background:black;
+  transform: translateX(-50%);
+}
+.work .title5::after{
+ content: "3D Modelling";
+ position: absolute;
+ bottom: -12px;
+ left: 50%;
+ font-size: 20px;
+ color: crimson;
+ padding: 5px;
+ background:white;
+ transform: translateX(-50%);
+} 
+/* ==============My work 5  end================= */
+
+
+
+
 /* ============Skills section styling========== */
 /* ============= Animation background ========= */
 .background-animation{
