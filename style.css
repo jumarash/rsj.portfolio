@@ -244,7 +244,7 @@ width: 45%;
     transform: translateX(-50%);
 }
 .work .title2::after{
-   content: "UX Design";
+   content: "UX/UI";
    position: absolute;
    bottom: -12px;
    left: 50%;
