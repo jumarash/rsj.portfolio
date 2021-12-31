@@ -1,13 +1,13 @@
-.background{
+/* .background{ */
     /* background:url(https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80)no-repeat; */
-    background:url(./images/rsj.portfolio2.png) no-repeat;
+    /* background:url(./images/rsj.portfolio2.png) no-repeat; */
     /* background-color: black; */
-    background-size: cover;
-    background-position: 50% 50%;
-    height: 650px;
-    width: 100%;
+    /* background-size: cover; */
+    /* background-position: 50% 50%; */
+    /* height: 650px; */
+    /* width: 100%; */
    
-}
+/* } */
 
  .background .navbar .navbar-nav a{
     color: white;
@@ -20,6 +20,17 @@
     color: crimson;
 
 }
+ .navbar{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease-in;
+ }
+ .navbar ul a:hover{
+color: crimson;
+ }
+
+
 .header_area .main-menu .navbar-nav .active a{
     background: rgb(40, 210, 240);
     -webkit-background-clip: text;
@@ -37,7 +48,12 @@
 /* ends nav */
 /* banner area */
 
-
+.vertical {
+  border-left: 1px solid crimson;
+  height: 50px;
+  position:absolute;
+  left: 50%;
+}
 .site-main{
    
   /* background: url(https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1353&q=80) ; */
@@ -85,6 +101,7 @@
     font-family: sans-serif;
     font-size: 24px;
     line-height: 50px;
+  
 }
 
 .button{
@@ -97,6 +114,7 @@
     position: relative;
     border: 3px solid transparent;
     border-radius: 10px;
+    
 
 } 
 
@@ -106,12 +124,14 @@
     color: whitesmoke;
     transition:background .6s ease;
   box-shadow: crimson;
+  
 
 }
 .button.primary-button:hover{
     background: rgb(163, 16, 16);
     background-clip: padding-box;
     color:black ;
+    
 }
 .button.primary-button::after{
     position: absolute;
@@ -128,9 +148,9 @@
 /* about */
 
  /* about section styling */
- section{
+ /* section{ */
      /* padding: 100px 0; */
- }
+ /* } */
  .about{
      font-family: sans-serif; 
  }

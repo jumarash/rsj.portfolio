@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     
     <script src="script.js"></script>
     <script>
@@ -21,9 +25,51 @@
 </head>
 
 <body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--================ nav section starting ======================-->
-    <header class="background"> 
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+      <a class="navbar-brand" href="#" style="font-weight: bold;">RSJ. <span style="color:crimson;font-weight: bold;">Portfolio</span> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#work">My Work</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#concept">Concept</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#case-study">Case Study</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+     
+      </div>
+    </div>
+    </nav>
+    <header> 
+
+      
+          <!-- </div> -->
      <!-- <div class="container"> </div> -->
     <!--<nav class="navbar navbar-expand-lg navbar-light sticky-top "> -->
           <!-- <a class="navbar-brand" href="#" style="font-weight: 500; color: white; font-size: 27px;padding-left: 20px; ">Rsj<span style="color: crimson;font-weight: 500;;">.portfolio</span> </a> -->
@@ -64,10 +110,10 @@
      
     <!--================== nav section ends==================== -->
     <!--================== Start Main area======================-->
-<main class="site-main" > 
+<!-- <main class="site-main" >  -->
 
     <!--================== End Banner Area======================-->
-    <sectin class="site-banner">
+    <!-- <sectin class="site-banner"> -->
       
        
         <!-- <div class="container"> 
@@ -81,27 +127,29 @@
             <!-- <h3 class="title-text"> Hello, my name is</h3> -->
             <!-- <h1 class="title-text text-uppercase "> Rashid Juma</h1>  -->
             <!-- <h4 class="title-text text-uppercase">and I'm an <span style="color: crimson;">Interaction Designer </span> </h4> -->
-        <div class="site-button">
+        <!-- <div class="site-button"> -->
           
         <!-- <div class="d-flex flex-rowf lex-wrap"> 
              <button type="button" class="btn button primary-button mr-4 text-uppercase">hire me</button>
         </div> HIRE ME BUTTON IS ON NO DISPLAY-->
 
-        </div>
-        </div>
-        </div>
-      </div>
-    </sectin>
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </section> -->
     <!--================== End Banner Area======================-->
     
-    </main>
+    <!-- </main> -->
     <!--================== End Main area======================-->
 
 </header>
+
+<img src="images/rsj.portfolio.png" alt="" class="img-fluid" >
 <!--================== Start Nav section======================-->
 
 <!--============== about section start ==================-->
-<section class="about" id="about">
+<section class="about" id="about-me">
   <div class="max-width">
       <h2 class="title mt-3">About me</h2>
       <div class="about-content">
@@ -117,7 +165,7 @@
               <p>
                 Experienced Food Service Worker with a demonstrated history of working in the higher education industry. Skills in 3D Visualization, User Experience (UX), Visual Design, Product Design, Web Design, and Interaction Design. Strong operations professional with an Advanced Diploma focused in Interaction Design from George Brown College.
               </p>
-              <!-- <a href="#">Download Resume</a>  DOWNLOAD BUTTON IS ON NO DISPLAY-->
+               <!-- <a href="images/Resume Remax.pdf" download="me"> Download Resume</a>  DOWNLOAD BUTTON IS ON NO DISPLAY -->
       
           </div>
   </div>
@@ -135,10 +183,10 @@
 <!--================== My work Section Start======================-->
 
 
-<div style="padding-left: 20px;padding-right: 20px; color: crimson;">
+<div style="padding-left: 20px;padding-right: 20px; color: crimson;" id="work">
   <hr>
 </div>
-<section class="work mb-5" id="work">
+<section class="work mb-5">
   <div class="max-width">
     
         <!-- <h2 class="title2"> My work</h2> -->
@@ -162,7 +210,7 @@
 <div class="card">
   <img class="card-img-top" src="images/mobile3.jpeg">
   <div class="card-body">
-    <h5 class="card-title" style="text-align: center;">E-commerce App | Prototyping</h5>
+    <h5 class="card-title" style="text-align: center;">E-commerce App | Prototype</h5>
         <!-- <p class="card-text" ></p> Rely on features and functionality to increase web interaction with the customer.</p> -->
     
   </div>
@@ -170,7 +218,7 @@
 <div class="card">
   <img class="card-img-top" src="images/app2.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title" style="text-align: center;">Mobile App | Prototyping</h5>
+    <h5 class="card-title" style="text-align: center;">Mobile App | Prototype</h5>
         <!-- <p class="card-text"> Quicky and enjoyable.</p> -->
     
   </div>
@@ -178,6 +226,7 @@
 
 </div>
 </div>
+
 
 
         <!-- </div>  -->
@@ -201,6 +250,57 @@
         
         </div>
         </div>
+
+    
+    
+     
+         
+        <h5 class="para-h5 mt-5" style="text-align: center;font-weight: bold;"> Interactive Prototype <span style="color: crimson;"> (Adobe XD)</span> </h5>
+      <p class="work para" style="text-align:center;font-size: 20px;padding-left: 20px; padding-right: 20px;"> The clients requested the creation of the brand and e-commerce website to facilitate their business.<br>The deliverables included: reasearch, branding components,marketing and website development. <br> <br> <span style="color: black;font-weight: bold;">Aim </span> to create a custom digital solution and increase the productivity of their business.</p>
+      
+    
+        <div class="about-content" style="padding-left: 20px;padding-right: 20px;">
+         <div class="card-group">
+        <div>
+        <img src="images/masaipro 1.png" class="card-img-top" alt="...">
+        <div class="mb-3" >
+        <!-- <h5 class="card-title">Prototyping</h5> -->
+        <!-- <p class="card-text" style="text-align: justify;"> Web App | User interfaces   -->
+        </p>
+        </div>
+
+        
+         <div class="card-group">
+        <div>
+        <img src="images/masaipro prototype.png" class="card-img-top" alt="...">
+        <div class="mb-3" >
+        <!-- <h5 class="card-title">Prototyping</h5> -->
+        <!-- <p class="card-text" style="text-align: justify;"> Web App | User interfaces   -->
+        </p>
+        </div>
+
+        <div class="card-deck mb-2 <!--px-4-->"> 
+          <div class="card">
+            <img class="card-img-top" src="images/jaysal classic.png">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Jaysal Classic Wear | Prototype</h5>
+                  <!-- <p class="card-text" ></p> Rely on features and functionality to increase web interaction with the customer.</p> -->
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/Nourish Spa.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Nourish Spa & Beauty | Prototype</h5>
+                  <!-- <p class="card-text"> Quicky and enjoyable.</p> -->
+              
+            </div>
+          </div>
+          
+          </div>
+          </div>
+
+        
         <div style="padding-right: 20px;padding-left: 20px;opacity: 25%;"> <hr></div>    
 </section>
 <!--================== My work Section End =======================-->
@@ -211,34 +311,28 @@
  
  </div>
  <section class="work" id="work"> 
-  <div class="max-width"> 
-    
-        <h2 class="title3"> Concept design</h2>
-
-      </div>
-    </section>
+     <div class="max-width"> 
+        <h2 class="title3" id="concept"> Concept design</h2>
+     </div>
+</section>
 
  <!-- <h1 class="work-h1 mt-3 mb-5" style="text-align: center; text-shadow: 2px 2px 4px #000000;"> Digital Drawings</h1> -->
+
  <div class="concept">
   <img class="card-img-top" src="images/ideation.png" alt="Card image cap" 
   style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
+<div >
 
-   <div >
    <div class="concept">
      <img class="card-img-top" src="images/smart- watch.png" alt="Card image cap" style="padding-left: 20px;padding-right: 20px;">
      <div class="mb-3">
        <!-- <h5 class="card-title">NR Smart Lock</h5> -->
        <!-- <p class="card-text" style="text-align: justify;">A smart lock that enhances and allows you to take control of your home security. With Sensible Vision 3D face recognition technology, your face is the new AI key to access your own home. The system can operate through  Android or iOS devices. Users can be worry-free from the struggles of losing your keys and being locked out of your home. </p> -->
        
-     </div>
+   </div>
    </div>
  </div>
  
- 
-
-
-
-
    <div class="concept">
      <img class="card-img-top" src="images/smart watch 2 in 1.png" alt="Card image cap" 
      style="padding-right: 20px; padding-left: 20px;">
@@ -249,25 +343,42 @@
      <img class="card-img-top" src="images/smart watch mockup.png" alt="Card image cap" 
      style="padding-right: 20px; padding-left: 20px;margin-top: 15px;margin-bottom: 10px;">
 
+      <div>
+         <div class="card-body"> 
+         <div> 
+        <img class="card-img-top" src="images/face shield.png" alt="Card image cap">
+        </div> 
+      </div>
+      <h5 class="para-h5 mt-5" style="text-align: center;font-weight: bold;"> Wireframe Design <span style="color: crimson;"> (Figma)</span> </h5>
+      <p class="work para " style="text-align:center;font-size: 20px;padding-left: 20px; padding-right: 20px; font-size: large;"> The design is the combination of two concepts. <br> The robotic nurse system and the App system would work together in the future to protect the people of Tokyo again the disasters. <br> The idea was to create the concept that based on the future for the city of my Experience (Tokyo)</p>
+
+      <div class="concept">
+        <img class="card-img-top" src="images/Ihope Wireframe1.png" alt="Card image cap" 
+        style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
       <div >
 
-         <div class="card-body"> 
-       
-       <div > 
-       <img class="card-img-top" src="images/face shield.png" alt="Card image cap">
-        
-      </div> 
-   </div> 
-   
-    
-    <!-- <div class="card-body"> -->
-       
-      <!-- <div > -->
-        <!-- <img class="card-img-top" src="images/nr smart lock01.png" alt="Card image cap"> -->
-        
-     <!-- </div> -->
-   <!-- </div> -->
- </div>
+        <div class="concept">
+          <img class="card-img-top" src="images/Ihope wireframe2.png" alt="Card image cap" 
+          style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
+        <div >
+
+          <h5 class="para-h5 mt-2" style="text-align: center;font-weight: bold; padding-left: 20px;padding-right: 20px;"> Branding <span style="color: crimson;"> (Illustrator) </span>| Interactive Prototype <span style="color: crimson;"> (Adobe XD) </span> </h5>
+          <div class="concept">
+
+            <div class="concept">
+              <img class="card-img-top" src="images/ihope logo.jpg" alt="Card image cap" 
+              style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
+            <div >
+            <img class="card-img-top" src="images/ihope prototype 6scn.pngel.png" alt="Card image cap" 
+            style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
+          <div >
+
+            <div class="concept">
+              <img class="card-img-top" src="images/Ihope mockup 4 scrn.png" alt="Card image cap" 
+              style="padding-right: 20px; padding-left: 20px;margin-bottom: 15px;">
+            <div >
+
+            
 
  <!--================== Concept Design Section End =======================-->
  <div style="padding-right: 20px;padding-left: 20px;opacity: 25%;"> <hr></div>
@@ -423,7 +534,7 @@
 
 <!--========= end of Sketches  =========== -->
 
- <div style="padding-right: 20px;padding-left: 20px;opacity: 25%;"> <hr></div>
+ <div id="case-study" style="padding-right: 20px;padding-left: 20px;opacity: 25%;"> <hr></div>
 
 <section class="work mt-5" id="work"> 
   <div class="max-width"> 
@@ -679,7 +790,7 @@
 
 <!--=======================footer start ============-->
  
-  <div class="footer-dark" >
+  <div class="footer-dark" id="contact">
     <footer>
         <div class="container" >
             <div class="row">
@@ -725,7 +836,8 @@
                 <hr class=" mt-3">
                 <div class="col item social mt-3">
                   <!-- <a href="#"><i class="bi bi-instagram"></i></i></a> -->
-                  <!-- <a href="#"><i class="bi bi-linkedin"></i></i></a> -->
+                  <a href="https://www.linkedin.com/in/rashid-juma-bba115209/"><i class="bi bi-linkedin"></i></i></a>
+                  <a href="mailto:programmingwithjumarash29@gmail.com"><i class="bi bi-envelope"></i></i></a>
                   <!-- <a href="#"><i class="bi bi-twitter"></i></i></a> -->
                   <!-- <a href="#"><i class="bi bi-facebook"></i></i></a> -->
                   </div> 
